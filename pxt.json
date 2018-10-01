@@ -14,6 +14,7 @@
 		"robotbit.ts",
         "RemoteIR.h",
         "TransmitterIR.cpp",
+		"_locales/zh/robotbit-strings.json",
         "TransmitterIR.h"
     ],
     "public": true
