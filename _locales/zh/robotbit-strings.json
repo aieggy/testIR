@@ -8,6 +8,6 @@
   "robotbit.CarCtrlSpeed|block": "小车速度控制|%index|速度 %speed|时间(秒) %time",
   "robotbit.Line_Sensor|block": "巡线传感器|位置 %direct|检测到 %value",
   "robotbit.InitIR|block": "初始化遥控器|%pin",
-  "robotbit.BtnPressed|block": "遥控器|%btn|按下时",
+  "robotbit.BtnPressed|block": "遥控器|%btn",
   "robotbit.Get_Line_Sensor|block": "巡线传感器|位置 %direct"
 }

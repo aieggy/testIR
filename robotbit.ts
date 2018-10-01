@@ -357,7 +357,7 @@ namespace robotbit{
         init(pin);
     }
 	
-	//% blockId=BtnPressed block="BtnPressed|%btn|pressed"
+	//% blockId=BtnPressed block="BtnPressed|%btn"
     //% weight=93
     //% blockGap=10
     //% color="#006400"
