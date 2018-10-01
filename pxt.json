@@ -7,11 +7,11 @@
         "core": "*"
     },
     "files": [
-        "shims.d.ts",
         "enums.d.ts",
         "ir.cpp",
         "ReceiverIR.cpp",
         "ReceiverIR.h",
+		"robotbit.ts",
         "RemoteIR.h",
         "TransmitterIR.cpp",
         "TransmitterIR.h"
