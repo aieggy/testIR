@@ -337,6 +337,34 @@ namespace robotbit{
         let d = pins.pulseIn(Echo, PulseValue.High, 23200);
         return d / 58;
     }
+	
+	//% advanced=true shim=AiEggtoyRobotbit_IR::init
+	function init(pin: Pins)void{
+		
+	}
+	
+	//% advanced=true shim=AiEggtoyRobotbit_IR::onPressEvent
+    function onPressEvent(btn: RemoteButton,body: Action):void{
+    
+	}
+	
+	//% blockId=InitIR block="InitIR|%pin"
+    //% weight=93
+    //% blockGap=10
+    //% color="#006400"
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
+    export function InitIR(pin: Pins): void {
+        init(pin);
+    }
+	
+	//% blockId=BtnPressed block="BtnPressed|%pin|pressed"
+    //% weight=93
+    //% blockGap=10
+    //% color="#006400"
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
+    export function BtnPressed(btn: RemoteButton,body: Action): void {
+        onPressEvent(btn,body);
+    }
 
     //% blockId=CarCtrl block="CarCtrl|%index|time %time"
     //% weight=93
