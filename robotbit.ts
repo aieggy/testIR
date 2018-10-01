@@ -339,7 +339,7 @@ namespace robotbit{
     }
 	
 	//% advanced=true shim=AiEggtoyRobotbit_IR::init
-	function init(pin: Pins)void{
+	function init(pin: Pins):void{
 		
 	}
 	
