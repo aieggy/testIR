@@ -1,5 +1,5 @@
 {
-    "name": "eggtoy_mbit_IRControl",
+    "name": "robotbit",
     "version": "1.0.0",
     "description": "Extension for eggtoy mbit IR receiver module",
     "license": "MIT",
